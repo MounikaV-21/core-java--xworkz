@@ -2,7 +2,7 @@ class ProjectorObjectTester{
  
  public static void main(String project[]){
  
- ProjectorObject projector = new ProjectorObject();
+ /* ProjectorObject projector = new ProjectorObject();
  projector.name = "Zebronics";
  projector.type = "LED projector";
  projector.price =  8999;
@@ -89,8 +89,56 @@ class ProjectorObjectTester{
  projector9.price = 14960 ;
  projector9.maxDistance =  20;
  projector9.projectImage();
- System.out.println(projector9.name+" "+projector9.type+" "+projector9.price+" "+projector9.maxDistance);
- System.out.println(" ");
+ System.out.println(projector9.name+" "+projector9.type+" "+projector9.price+" "+projector9.maxDistance); */
+ 
+ ProjectorObject projector = new ProjectorObject("Zebronics", "LED projector", 8999, 5.6);
+	  System.out.println(projector.name + ", " + projector.type + ", " + projector.price +" "+ projector.maxDistance);
+	  projector.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector1 = new ProjectorObject("Livato", "Full HD", 8965, 19);
+	  System.out.println(projector1.name + ", " + projector1.type + ", " + projector1.price +" "+ projector1.maxDistance);
+	  projector1.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector2 = new ProjectorObject("Uniy", "Led Projector", 7619, 15);
+	  System.out.println(projector2.name + ", " + projector2.type + ", " + projector2.price +" "+ projector2.maxDistance);
+	  projector2.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector3 = new ProjectorObject("IBS T 300", "Led", 3969, 18);
+	  System.out.println(projector3.name + ", " + projector3.type + ", " + projector3.price +" "+ projector3.maxDistance);
+	  projector3.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector4 = new ProjectorObject("Total T6", "Led", 6969, 131);
+	  System.out.println(projector4.name + ", " + projector4.type + ", " + projector4.price +" "+ projector4.maxDistance);
+	  projector4.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector5 = new ProjectorObject("Play MP6", "Led", 11490, 12);
+	  System.out.println(projector5.name + ", " + projector5.type + ", " + projector5.price +" "+ projector5.maxDistance);
+	  projector5.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector6 = new ProjectorObject("IBS HD", "DLP", 10969, 18);
+	  System.out.println(projector6.name + ", " + projector6.type + ", " + projector6.price +" "+ projector6.maxDistance);
+	  projector6.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector7 = new ProjectorObject("Play", "3D", 11231, 10);
+	  System.out.println(projector7.name + ", " + projector7.type + ", " + projector7.price +" "+ projector7.maxDistance);
+	  projector7.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector8 = new ProjectorObject("Play Native", "3D", 15999, 15);
+	  System.out.println(projector8.name + ", " + projector8.type + ", " + projector8.price +" "+ projector8.maxDistance);
+	  projector8.projectImage();
+	  System.out.println(" "); 
+	  
+	  ProjectorObject projector9 = new ProjectorObject("Wzatco", "Full HD", 14960, 20);
+	  System.out.println(projector9.name + ", " + projector9.type + ", " + projector9.price +" "+ projector9.maxDistance);
+	  projector9.projectImage();
+	  System.out.println(" "); 
  }
-
 }

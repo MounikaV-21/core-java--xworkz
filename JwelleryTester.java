@@ -2,7 +2,7 @@ class JwelleryTester{
 
  public static void main(String jewellaries[]){
  
- Jwellery jewel = new Jwellery();
+ /* Jwellery jewel = new Jwellery();
  jewel.name = "earings";
  jewel.type = "silver";
  jewel.price = 2000 ;
@@ -89,8 +89,56 @@ class JwelleryTester{
  jewel9.price = 1000 ;
  jewel9.grams = 5 ;
  jewel9.toWear();
- System.out.println(jewel9.name+" "+jewel9.type+" "+jewel9.price+" "+jewel9.grams);
- System.out.println(" ");
+ System.out.println(jewel9.name+" "+jewel9.type+" "+jewel9.price+" "+jewel9.grams); */
+ 
+ Jwellery jewel = new Jwellery("earings", "Silver", 200, 3);
+	  System.out.println(jewel.name + ", " + jewel.type + ", " + jewel.price +" "+ jewel.grams);
+	  jewel.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel1 = new Jwellery("Nose pin", "Gold", 1000, 2);
+	  System.out.println(jewel1.name + ", " + jewel1.type + ", " + jewel1.price +" "+ jewel1.grams);
+	  jewel1.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel2 = new Jwellery("Mangalsutra", "Gold", 320000, 20);
+	  System.out.println(jewel2.name + ", " + jewel2.type + ", " + jewel2.price +" "+ jewel2.grams);
+	  jewel2.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel3 = new Jwellery("Necklace", "Gold", 500000, 5);
+	  System.out.println(jewel3.name + ", " + jewel3.type + ", " + jewel3.price +" "+ jewel3.grams);
+	  jewel3.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel4 = new Jwellery("Pendants", "Silver", 800, 4);
+	  System.out.println(jewel4.name + ", " + jewel4.type + ", " + jewel4.price +" "+ jewel4.grams);
+	  jewel4.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel5 = new Jwellery("Bracelets", "Silver", 3000, 6);
+	  System.out.println(jewel5.name + ", " + jewel5.type + ", " + jewel5.price +" "+ jewel5.grams);
+	  jewel5.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel6 = new Jwellery("Bangles", "Gold", 280000, 15);
+	  System.out.println(jewel6.name + ", " + jewel6.type + ", " + jewel6.price +" "+ jewel6.grams);
+	  jewel6.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel7 = new Jwellery("Anklets", "Silver", 3000, 8);
+	  System.out.println(jewel7.name + ", " + jewel7.type + ", " + jewel7.price +" "+ jewel7.grams);
+	  jewel7.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel8 = new Jwellery("Rings", "Gold", 10000, 2);
+	  System.out.println(jewel8.name + ", " + jewel8.type + ", " + jewel8.price +" "+ jewel8.grams);
+	  jewel8.toWear();
+	  System.out.println(" "); 
+	  
+	  Jwellery jewel9 = new Jwellery("Toe rings", "Silver", 1000, 5);
+	  System.out.println(jewel9.name + ", " + jewel9.type + ", " + jewel9.price +" "+ jewel9.grams);
+	  jewel9.toWear();
  
  
  }

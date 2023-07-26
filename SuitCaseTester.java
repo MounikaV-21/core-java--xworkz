@@ -2,7 +2,7 @@ class SuitCaseTester{
  
 public static void main(String suite[]){
 	
- SuitCase suitCase = new SuitCase();
+ /* SuitCase suitCase = new SuitCase();
  suitCase.brandName = "Delsey";
  suitCase.weight = "5kg";
  suitCase.price = 5000;
@@ -90,7 +90,56 @@ public static void main(String suite[]){
  suitCase9.noOfCompartments = 5;
  suitCase9.forLuggage();
  System.out.println(suitCase9.brandName+" "+suitCase9.weight+" "+suitCase9.price+" "+suitCase9.noOfCompartments);
- System.out.println(" ");
+ System.out.println(" "); */
  
+ SuitCase suitCase = new SuitCase("Delsey ", "5kg", 500, 3);
+	  System.out.println(suitCase.brandName + ", " + suitCase.weight + ", " + suitCase.price +" "+ suitCase.noOfCompartments);
+	  suitCase.forLuggage();
+	  System.out.println(" ");
+ 
+ SuitCase suitCase1 = new SuitCase("American Tourister", "7kg", 700, 5);
+	  System.out.println(suitCase1.brandName + ", " + suitCase1.weight + ", " + suitCase1.price +" "+ suitCase1.noOfCompartments);
+	  suitCase1.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase2 = new SuitCase("Wildcraft", "8kg", 800, 6);
+	  System.out.println(suitCase2.brandName + ", " + suitCase2.weight + ", " + suitCase2.price +" "+ suitCase2.noOfCompartments);
+	  suitCase2.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase3 = new SuitCase("Tumi ", "4kg", 1000, 5);
+	  System.out.println(suitCase3.brandName + ", " + suitCase3.weight + ", " + suitCase3.price +" "+ suitCase3.noOfCompartments);
+	  suitCase3.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase4 = new SuitCase("Samsonite ", "5kg", 5000, 8);
+	  System.out.println(suitCase4.brandName + ", " + suitCase4.weight + ", " + suitCase4.price +" "+ suitCase4.noOfCompartments);
+	  suitCase4.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase5 = new SuitCase("Monos ", "6kg", 9000, 5);
+	  System.out.println(suitCase5.brandName + ", " + suitCase5.weight + ", " + suitCase5.price +" "+ suitCase5.noOfCompartments);
+	  suitCase5.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase6 = new SuitCase("Away ", "7kg", 6000, 4);
+	  System.out.println(suitCase6.brandName + ", " + suitCase6.weight + ", " + suitCase6.price +" "+ suitCase6.noOfCompartments);
+	  suitCase6.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase7 = new SuitCase("Paravel ", "4kg", 7900, 6);
+	  System.out.println(suitCase7.brandName + ", " + suitCase7.weight + ", " + suitCase7.price +" "+ suitCase7.noOfCompartments);
+	  suitCase7.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase8 = new SuitCase("Calpak ", "6kg", 1000, 5);
+	  System.out.println(suitCase8.brandName + ", " + suitCase8.weight + ", " + suitCase8.price +" "+ suitCase8.noOfCompartments);
+	  suitCase8.forLuggage();
+	  System.out.println(" ");
+	  
+	  SuitCase suitCase9 = new SuitCase("Travelpro ", "4kg", 1000, 5);
+	  System.out.println(suitCase9.brandName + ", " + suitCase9.weight + ", " + suitCase9.price +" "+ suitCase9.noOfCompartments);
+	  suitCase9.forLuggage();
+	  System.out.println(" ");
 }
 }

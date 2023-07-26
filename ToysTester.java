@@ -2,7 +2,7 @@ class ToysTester{
 
   public static void main(String toys[]){
   
-  Toys toy = new Toys();
+  /* Toys toy = new Toys();
   toy.name = "Octopus";
   toy.type = "soft toys";
   toy.price = 100;
@@ -89,8 +89,58 @@ class ToysTester{
   toy9.price = 350;
   toy9.color = "Pink";
   toy9.play();
-  System.out.println(toy9.name+" "+toy9.type+" "+toy9.price+" "+toy9.color);
-  System.out.println(" ");
+  System.out.println(toy9.name+" "+toy9.type+" "+toy9.price+" "+toy9.color);  */
+  
+  Toys toy = new Toys("Octopus", "soft toys ", 100, "Blue");
+	  System.out.println(toy.name + ", " + toy.type + ", " + toy.price +" "+ toy.color);
+	  toy.play();
+	  System.out.println(" ");
+	  
+	  Toys toy1 = new Toys("Blocks", "Plastic", 150, "All colors");
+	  System.out.println(toy1.name + ", " + toy1.type + ", " + toy1.price +" "+ toy1.color);
+	  toy1.play();
+	  System.out.println(" ");
+	  
+	  Toys toy2 = new Toys("Rubick's cube", "plastic", 80, "All colors");
+	  System.out.println(toy2.name + ", " + toy2.type + ", " + toy2.price +" "+ toy2.color);
+	  toy2.play();
+	  System.out.println(" ");
+	  
+	  Toys toy3 = new Toys("Car model", "plastic", 600, "Red");
+	  System.out.println(toy3.name + ", " + toy3.type + ", " + toy3.price +" "+ toy3.color);
+	  toy3.play();
+	  System.out.println(" ");
+	  
+	  Toys toy4 = new Toys("Rockig horse", "Wodden", 700, "Cream");
+	  System.out.println(toy4.name + ", " + toy4.type + ", " + toy4.price +" "+ toy4.color);
+	  toy4.play();
+	  System.out.println(" ");
+	  
+	  Toys toy5 = new Toys("Duck", "rubber", 140, "yellow");
+	  System.out.println(toy5.name + ", " + toy5.type + ", " + toy5.price +" "+ toy5.color);
+	  toy5.play();
+	  System.out.println(" ");
+	  
+	  Toys toy6 = new Toys("Train", "plastic", 400, "Blue");
+	  System.out.println(toy6.name + ", " + toy6.type + ", " + toy6.price +" "+ toy6.color);
+	  toy6.play();
+	  System.out.println(" ");
+	  
+	  Toys toy7 = new Toys("Ball", "plastic", 300, "black");
+	  System.out.println(toy7.name + ", " + toy7.type + ", " + toy7.price +" "+ toy7.color);
+	  toy7.play();
+	  System.out.println(" ");
+	  
+	  Toys toy8 = new Toys("Drum", "plastic", 200, "Red");
+	  System.out.println(toy8.name + ", " + toy8.type + ", " + toy8.price +" "+ toy8.color);
+	  toy8.play();
+	  System.out.println(" ");
+	  
+	  Toys toy9 = new Toys("Barbie", "rubber", 350, "Pink");
+	  System.out.println(toy9.name + ", " + toy9.type + ", " + toy9.price +" "+ toy9.color);
+	  toy9.play();
+	  
+  
   
   }
 }

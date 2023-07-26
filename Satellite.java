@@ -7,6 +7,14 @@ class Satellite{
   String type;
   int communicationCost;
   
+  public Satellite(String name, String type, int communicationCost){
+	this.name = name;
+	this.type = type;
+	this.communicationCost = communicationCost;
+	
+	System.out.println("Satellite Constructor is invoked");
+}
+  
   public void launchSatellites(){
   System.out.println("Satellitesa re launched for research purpose");
   }
