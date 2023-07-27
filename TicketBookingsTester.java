@@ -1,0 +1,131 @@
+class TicketBookingsTester{
+
+ public static void main(String booking[]){
+ 
+ TicketBookings ticket = new TicketBookings();
+ ticket.setBookingId(1);
+ System.out.println(ticket.getBookingId());
+ ticket.setNoOfSeats(100);
+ System.out.println(ticket.getNoOfSeats());
+ ticket.setSource("Bangalore");
+ System.out.println(ticket.getSource());
+ ticket.setDestination("Goa");
+ System.out.println(ticket.getDestination());
+ ticket.setDate("1st August 2023");
+ System.out.println(ticket.getDate());
+ ticket.setTimings("5PM");
+ System.out.println(ticket.getTimings());
+ ticket.setPnr(63274710624l);
+ System.out.println(ticket.getPnr());
+ ticket.setPrice(5500.00);
+ System.out.println(ticket.getPrice());
+ ticket.setClassType("1st class");
+ System.out.println(ticket.getClassType());
+ ticket.setBookingType("Online");
+ System.out.println(ticket.getBookingType());
+ ticket.setTransportName("Train");
+ System.out.println(ticket.getTransportName());
+ System.out.println(" ");
+ 
+ TicketBookings ticket1 = new TicketBookings();
+ ticket1.setBookingId(2);
+ System.out.println(ticket1.getBookingId());
+ ticket1.setNoOfSeats(150);
+ System.out.println(ticket1.getNoOfSeats());
+ ticket1.setSource("Chennai");
+ System.out.println(ticket1.getSource());
+ ticket1.setDestination("Kashmir");
+ System.out.println(ticket1.getDestination());
+ ticket1.setDate("11th August 2023");
+ System.out.println(ticket1.getDate());
+ ticket1.setTimings("3AM");
+ System.out.println(ticket1.getTimings());
+ ticket1.setPnr(84685372946l);
+ System.out.println(ticket1.getPnr());
+ ticket1.setPrice(10600.00);
+ System.out.println(ticket1.getPrice());
+ ticket1.setClassType("Business class");
+ System.out.println(ticket1.getClassType());
+ ticket1.setBookingType("Online");
+ System.out.println(ticket1.getBookingType());
+ ticket1.setTransportName("Flight");
+ System.out.println(ticket1.getTransportName());
+ System.out.println(" ");
+ 
+ TicketBookings ticket2 = new TicketBookings();
+ ticket2.setBookingId(3);
+ System.out.println(ticket2.getBookingId());
+ ticket2.setNoOfSeats(50);
+ System.out.println(ticket2.getNoOfSeats());
+ ticket2.setSource("Bangalore");
+ System.out.println(ticket2.getSource());
+ ticket2.setDestination("Gokarna");
+ System.out.println(ticket2.getDestination());
+ ticket2.setDate("28th August 2023");
+ System.out.println(ticket2.getDate());
+ ticket2.setTimings("8PM");
+ System.out.println(ticket2.getTimings());
+ ticket2.setPnr(9364852826l);
+ System.out.println(ticket2.getPnr());
+ ticket2.setPrice(3500.00);
+ System.out.println(ticket2.getPrice());
+ ticket2.setClassType("Sleeper coach");
+ System.out.println(ticket2.getClassType());
+ ticket2.setBookingType("Offline");
+ System.out.println(ticket2.getBookingType());
+ ticket2.setTransportName("Bus");
+ System.out.println(ticket2.getTransportName());
+ System.out.println(" ");
+ 
+ TicketBookings ticket3 = new TicketBookings();
+ ticket3.setBookingId(4);
+ System.out.println(ticket3.getBookingId());
+ ticket3.setNoOfSeats(80);
+ System.out.println(ticket3.getNoOfSeats());
+ ticket3.setSource("Hyderabad");
+ System.out.println(ticket3.getSource());
+ ticket3.setDestination("Delhi");
+ System.out.println(ticket3.getDestination());
+ ticket3.setDate("24th Sept 2023");
+ System.out.println(ticket3.getDate());
+ ticket3.setTimings("5PM");
+ System.out.println(ticket3.getTimings());
+ ticket3.setPnr(8824274274l);
+ System.out.println(ticket3.getPnr());
+ ticket3.setPrice(6540.00);
+ System.out.println(ticket3.getPrice());
+ ticket3.setClassType("EC class");
+ System.out.println(ticket3.getClassType());
+ ticket3.setBookingType("Offline");
+ System.out.println(ticket3.getBookingType());
+ ticket3.setTransportName("Train");
+ System.out.println(ticket3.getTransportName());
+ System.out.println(" ");
+ 
+ 
+ TicketBookings ticket4 = new TicketBookings();
+ ticket4.setBookingId(5);
+ System.out.println(ticket4.getBookingId());
+ ticket4.setNoOfSeats(70);
+ System.out.println(ticket4.getNoOfSeats());
+ ticket4.setSource("Kerala");
+ System.out.println(ticket4.getSource());
+ ticket4.setDestination("UK");
+ System.out.println(ticket4.getDestination());
+ ticket4.setDate("11th December 2023");
+ System.out.println(ticket4.getDate());
+ ticket4.setTimings("2AM");
+ System.out.println(ticket4.getTimings());
+ ticket4.setPnr(842485726l);
+ System.out.println(ticket4.getPnr());
+ ticket4.setPrice(7800.00);
+ System.out.println(ticket4.getPrice());
+ ticket4.setClassType("First class");
+ System.out.println(ticket4.getClassType());
+ ticket4.setBookingType("Online");
+ System.out.println(ticket4.getBookingType());
+ ticket4.setTransportName("Flight");
+ System.out.println(ticket4.getTransportName());
+ }
+ 
+}
