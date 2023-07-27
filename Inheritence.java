@@ -1,0 +1,2 @@
+class Inheritence extends JavaConcept{
+}

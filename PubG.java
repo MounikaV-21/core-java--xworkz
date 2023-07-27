@@ -1,0 +1,2 @@
+class PubG extends OnlineGame{
+}
