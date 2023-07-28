@@ -1,6 +1,6 @@
 class OrganTester{
-public static void main(String heart[]){
-Organ organ = new Organ();
-organ.activity();
+public static void main(String org[]){
+Heart heart = new Heart();
+heart.activity();
 }
 }

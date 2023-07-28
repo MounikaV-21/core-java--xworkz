@@ -1,6 +1,6 @@
 class SportTester{
-public static void main(String hockey[]){
-Sport sport = new Sport();
-sport.toPlay();
+public static void main(String hock[]){
+Hockey hockey = new Hockey();
+hockey.toPlay();
 }
 }

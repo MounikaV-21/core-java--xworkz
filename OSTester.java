@@ -1,6 +1,6 @@
 class OSTester{
 public static void main(String test[]){
-OS os = new OS();
-os.toManageSoftware();
+Windows windows = new Windows();
+windows.toManageSoftware();
 }
 }

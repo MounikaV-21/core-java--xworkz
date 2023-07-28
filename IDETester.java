@@ -1,6 +1,6 @@
 class IDETester{
-public static void main(String eclipse[]){
-IDE ide = new IDE();
-ide.toDevelopApps();
+public static void main(String ec[]){
+Eclipse eclipse = new Eclipse();
+eclipse.toDevelopApps();
 }
 }

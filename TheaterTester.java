@@ -1,6 +1,6 @@
 class TheaterTester{
-public static void main(String pvr[]){
-Theater theater = new Theater();
-theater.toDisplay();
+public static void main(String pv[]){
+Pvr pvr = new Pvr();
+pvr.toDisplay();
 }
 }

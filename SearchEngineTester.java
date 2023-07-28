@@ -1,6 +1,6 @@
 class SearchEngineTester{
 public static void main(String engine[]){
-SearchEngine search = new SearchEngine();
-search.toCollectInfo();
+Google google = new Google();
+google.toCollectInfo();
 }
 }

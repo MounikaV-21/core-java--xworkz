@@ -1,6 +1,6 @@
 class JavaConceptTester{
-public static void main(string concept[]){
-JavaConcept java = new JavaConcept(0;
-java.toGetJob();
+public static void main(String concept[]){
+Inheritence inheritence = new Inheritence();
+inheritence.toGetJob();
 }
 }
