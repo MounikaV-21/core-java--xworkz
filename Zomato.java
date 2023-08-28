@@ -1,2 +1,0 @@
-class Zomato extends FoodDeliveryApp{
-}

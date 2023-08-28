@@ -1,2 +1,0 @@
-class Uber extends TaxiApp{
-}

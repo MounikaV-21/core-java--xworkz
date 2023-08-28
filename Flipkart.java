@@ -1,2 +1,0 @@
-class Flipkart extends Ecommerce{
-}
